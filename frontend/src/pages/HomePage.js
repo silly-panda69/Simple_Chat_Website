@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 import uniqid from 'uniqid';
 
-const socket = io.connect('https://simple-chat-6y12.onrender.com');
+const socket = io.connect('');
 
 const HomePage = () => {
   const [messages, setMessages] = useState([]);
